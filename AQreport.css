@@ -1,0 +1,181 @@
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+    .maintable{
+        background-color: darkslategrey;
+    }
+
+}
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+    .Equip{
+        background-color: darkslategrey;
+        width: 100%;
+       
+    }
+
+}
+/* @media (min-width: 320px) { */
+    /* For mobile phones: */
+    /* .maintable{
+    width: 100%;
+    background-color: coral;
+    }
+} */
+
+
+
+
+.container1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header h1{
+    color: rgb(196, 187, 66);
+   font-family: 'Times New Roman', Times, serif;
+   height: auto;
+  
+}
+.header{
+    text-align: center;
+
+}
+.header #font{
+    font-size: 10px;
+}
+
+.container1{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+#imlogo{
+    margin-top: 5%;
+    margin-right: 2%;
+    /* margin-left: 5%; */
+    width: auto;
+    
+}
+#melogo{
+    width: auto;
+    margin-top: 6%;
+    margin-left: 2%;
+    /* margin-right: 6%; */
+    border-radius: 100%;
+}
+
+
+/* Table */
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    margin-left: 10%;
+    width: 80%;
+    border: 1px dotted;
+    
+}
+  
+#First tr th {
+    border: 1px dotted;
+    background-color: #a5a2a2;
+    text-align: center;
+    padding: 3px;
+}
+
+/* Content */
+.itfirst{
+    /* background-color: brown; */
+    /* border: 1px solid black; */
+    border-right: 1px dotted;
+    text-align: center;
+}
+
+.itsecond{
+    border-right: 1px dotted;
+    /* background-color: #963535; */
+    
+}
+
+
+/* Equipment Layer */
+#Equip td{
+    border: 1px dotted;
+    border-collapse: collapse;
+    text-align: center; 
+}
+#Equip tr th {
+    border: 1% dotted;
+    background-color: #a5a2a2;
+    text-align: center;
+    padding: 3px;
+}
+
+/* Velocity */
+
+#Velo td{
+    
+    border: 1px dotted black;
+    /* border-collapse: collapse; */
+    text-align: center;
+}
+
+#Velo tr th{
+        border: 1% dotted;
+        background-color: #a5a2a2;
+        text-align: center;
+        /* padding: 3px; */
+        /* background-color: chocolate; */
+}
+
+#Note {
+   margin-left: 5%;
+   
+}
+
+#footer tr th {
+    border: 1% dotted;
+    border: 1px dotted black;
+   
+    /* background-color: blueviolet; */
+    text-align: center;
+    padding: 3px;
+}
+#Signs td{
+    padding-bottom: 8%;
+  
+    border: 1px dotted black;
+    
+}
+
+.Body{
+    border: 1px solid dotted;
+}
+hr{
+    border: 1px solid black;
+    margin-top: -1%;
+    margin-bottom: 3%;
+}
+
+
+.empty{
+    /* background-color: aquamarine; */
+    height: 5%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-left: 1px solid black;
+    border-right: 2px solid black;
+}
+
+#Gap{
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+}
